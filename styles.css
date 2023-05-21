@@ -1,0 +1,564 @@
+body{
+    height:fit-content;
+}
+.header{
+    margin: auto;
+    margin-left: -15px;
+    background: rgb(37, 131, 255);
+    height:80px;
+}
+.hotelsText{
+    font-size: xx-large;
+    position: relative;
+    top: 30px;
+    margin-left: 60px;
+}
+#hA{
+    text-decoration: none;
+    color:white;
+}
+.whatsapp{
+    position: relative;
+    top:-25px;
+    z-index: 1;
+    right:-150px;
+    border-radius:50%;
+    height:50px;
+    background-image: url(assets/images/whatsapp.jpg);
+}
+.contact-dv{
+    position:relative;
+    right: -350px;
+    top: -130px;
+    border-radius: 40px;
+    height:40px;
+    background-color:rgb(19, 19, 58);
+}
+.SP{
+    text-align: center;
+}
+.mini-img{
+    position: relative;
+    right: 130px;
+    top:2px;
+    height:40px;
+    border-radius: 50%;
+}
+@media only screen 
+and (min-device-width:320px)
+and (max-device-width:480px){
+    .contact-dv{
+        display: none;
+    }
+}
+
+@media only screen 
+and (min-device-width:320px)
+and (max-device-width:480px){
+     .dealL{
+        width:10%;
+     }
+     .lagoshotel{
+        margin-bottom: 30px;
+     }
+     .abujahotel{
+        margin-bottom: 30px;
+     }
+     .calabarhotel{
+        margin-bottom:30px;
+     }
+     .portharcourthotel{
+        margin-bottom:30px;
+     }
+     .owerrihotel{
+        margin-bottom:30px;
+     }
+    .hline{
+        position: relative;
+        top:-20px;
+    }
+    .whatsapp{
+        display: none;
+    }
+    .hline{
+        display: none;
+    }
+    .hline2{
+        display: none;
+    }
+    .header{
+        height:60px;
+    }
+    .hotelsText{
+        position: relative;
+        top:20px;
+        left: -20px;
+    }
+    .nairaS{
+        display: none;
+    }
+    .hline3{
+        display: none;
+    }
+    .search1{
+        width:50%;
+        position: relative;
+        left:-20px;
+    }
+    .findButton{
+        position: relative;
+        top: -40px;
+        left:150px;
+    }
+}
+.call{
+    position: relative;
+    top:-170px;
+    color:white;
+}
+.hline{
+    position: relative;
+    top:-80px;
+    width:1px;
+    left:190px;
+    height:55px;
+    background-color: white;
+}
+.hline2{
+    position: relative;
+    top:-175px;
+    width:1px;
+    left:530px;
+    height:55px;
+    background-color: white;
+}
+.hline3{
+    position: relative;
+    top:-200px;
+    z-index: 1;
+    width:1px;
+    height:5px;
+    background-color: rgb(0, 0, 0);
+}
+.drop2{
+    z-index:1;
+    position: relative;
+    top:-300px;
+}
+.Fselect{
+    z-index:1;
+    position: relative;
+    top:-200px;
+    background-color: blueviolet;
+}
+.Cbook{
+    left:5px;
+    position: relative;
+    top:-40px;
+    font-size: small;
+    color: rgb(87, 159, 207);
+}
+.drop1{
+    background: transparent;
+    position:relative;
+    top:-90px;
+    right:-80px;
+}
+.contwhatsapp{
+    border-radius: 50%;
+    height:25px;
+    position: relative;
+    left:-10px;
+}
+.Cnumber{
+    left:-20px;
+    font-size: larger;
+    color:white;
+    position: relative;
+    top:-45px;
+}
+.number1{
+    position: relative;
+    top:-25px;
+    left:10px;
+    color:black;
+    font-size: medium;
+}
+.flag{
+    height:45px;
+    position:relative;
+    top:-230px;
+    left:600px;
+    width:90px;
+}
+.nairaS{
+    font-weight: 400;
+    position: relative;
+    right:220px;
+    text-align: right;
+    color:white;
+    top:-280px;
+}
+.homepage{
+    margin-left:-20px;
+    height:400px;
+    background: url(assets/images/homepage.jpg);
+}
+.homepageText1{
+    position: relative;
+    left:5px;
+    text-align: justify;
+    position: relative;
+    top: 150px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+.homepageText2{
+    position:relative;
+    top:150px;
+    font-weight:400;
+    color:white;
+    text-align: center;
+}
+@media screen and(min-width:620px){
+    .homepage{
+        margin:auto;
+        height:400px;
+        background: url(assets/images/homepage.jpg);
+    }
+}
+.search-hotels{
+    height: 100px;
+    padding: 30px 0 30px 30px;
+    top:-20px ;
+    position: sticky !important; 
+    margin-bottom: 10px;
+    margin-left:-20px;
+    margin-top:-55px;
+    z-index:1;
+    height:100px;
+    background: white;
+    box-shadow:0 0 10px 0 black;    
+}
+@media screen and(min-width:620px){
+   .search-hotels{
+     width:100%;
+   }
+}
+.search1{
+    border: solid 1px rgb(104, 104, 104);
+    position: relative;
+    height:40px;
+}
+.date1{
+    font-weight:200;
+    border:solid 1px  rgb(104, 104, 104);
+    height:40px;
+    position: relative;
+}
+.findButton{
+    width:90%;
+    border-radius:3px;
+    border: transparent;
+    background: rgb(0, 110, 255);
+    color:white;
+    height:40px;
+    position: relative;
+
+}
+.Sdestination{
+    font-weight:400;
+    color:rgb(82, 82, 82);
+    margin-top:30px;
+    text-align: center;
+}
+.Pdestinnation{
+    font-weight:400;
+     color:rgb(82, 82, 82);
+     text-align:center;
+}
+.sugline{
+    margin-bottom: 40px;
+    width: 20px;
+    margin-top:10px;
+    height:2px;
+    background-color: rgb(9, 115, 253);
+}
+
+.button1{
+    height:120px;
+ border: 1px solid rgb(0, 110, 255);
+}
+.button1:hover{
+    color:white;
+    background:rgb(0, 110, 255);
+}
+.a1{
+ text-decoration: none;
+}
+.a1:hover{
+ color: white;
+}
+.inButton1{
+    text-align: center;
+    font-size: x-large;
+    color:rgb(0, 110, 255);
+}
+.inButton1:hover{
+    color:white;
+}
+.inButton1D{
+    color:rgb(173, 173, 173);
+}
+.inButtonD:hover{
+    color: white;
+}
+.but2:hover{
+ color: white;
+}
+.hotl{
+    text-decoration: none;
+}
+.hotl:hover{
+ color:white;
+}
+.inButton2{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(0 ,110, 255);
+}
+.inButton2D{
+    color:rgb(173, 173, 173);
+}
+.pop-buttons{
+    margin-bottom: 100px;
+    margin-top: 50px !important;
+}
+.button2{
+    /* margin-left: 40px; */
+    position: relative;
+    height:120px;
+    border: 1px solid rgb(0, 110, 255);
+ }
+ .button2:hover{
+    background: rgb(0, 110, 255);
+ }
+ .button3{
+    height:120px;
+    border: solid 1px rgb(0, 110, 255);
+ }
+ .button3:hover{
+    background: rgb(0, 110, 255);
+ }
+ .button4{
+    height:120px;
+    border: solid 1px rgb(0, 110, 255);
+ }
+ .button4:hover{
+    background: rgb(0 ,110, 255);
+ }
+ .button5{
+    height:120px;
+    border: solid 1px rgb(0, 110, 255);
+ }
+ .button5:hover{
+    background: rgb(0, 110, 255)
+ }
+ .button6{
+    height:120px;
+    border: solid 1px rgb(0, 110, 255);
+ }
+ .button6:hover{
+    background:rgb(0 110, 255);
+ }
+ /*
+@media screen and(max-width:620px){
+    .button{
+        display: inline-flex;
+    }
+} */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){
+  .states{
+    display: none;
+  }
+    .date1{
+    display: none;
+}
+}
+.hotelpics{
+    margin-bottom:100px;
+    margin-top: 100px !important;
+}
+@media screen
+and (min-device-width: 320px)
+and (max-device-width: 480px){
+    .pic1U{
+        margin-bottom:20px !important;
+    }
+    .dealL{
+        width:10%;
+    }
+    .pic3U{
+        margin-bottom:20px;
+    }
+    .cityB{
+        display: none;
+    }
+    #special{
+        width:100%;
+    }
+    #email{
+        position: relative;
+        margin-left: 20px;
+        width:60%;
+    }
+    #sub{
+        margin-left: -10px;
+        top:10px;
+        position: relative;
+        height: 50px;
+        margin-top: 35px;
+    width:100px;
+    }
+    .sdeal{
+        position: relative;
+        top:20px;
+    }
+    .featured{
+        display: none;
+    }
+}
+.pic1{
+    border-radius: 1px;
+    height:300px;
+    background-image: url(assets/images/kitex\ place.jpg);
+}
+.pic1U{
+    margin-bottom:40px;
+    z-index: 1;
+    margin-top: -10px;
+    height:80px;
+    box-shadow: 0 1px 0 1px rgb(116, 116, 116);
+}
+.pic2{
+    border-radius: 1px;
+    height:300px;
+    background-image: url(assets/images/the-avenue-suites.jpg) !important;
+}
+.pic2U{
+    z-index:1;
+    margin-top: -10px;
+    height:80px;
+    box-shadow: 0 1px 0 1px rgb(116, 116, 116);
+}
+.pic3{
+    border-radius:1px;
+    height:300px;
+    background-image: url(assets/images/marmaris-hotels-and-suites.jpg);
+}
+.pic3U{
+    z-index:1;
+    margin-top: -10px;
+    height: 80px;
+    box-shadow: 0 1px 0 1px rgb(116, 116, 116);
+}
+.pic4{
+  border-radius:1px;
+  height:300px;
+  background-image: url(assets/images/e\ gold.jpg);
+}
+.pic4U{
+    z-index:1;
+    margin-top:-10px;
+    height:80px;
+    box-shadow:0 1px 0 1px rgb(116, 116, 116);
+}
+.pic5{
+    border-radius: 1px;
+    height:300px;
+    background-image:  url(assets/images/dallas.jpg);
+}
+.pic5U{
+    z-index:1;
+    margin-top:-20px;
+    height:90px;
+    box-shadow: 0 1px 0 1px rgb(116, 116, 116)
+}
+.pic6{
+    border-radius:1px;
+    height:300px;
+    background-image: url(assets/images/aga-woods-hotel-1470665-31.jpg);
+}
+.pic6U{
+    z-index:1;
+    margin-top:-20px;
+    height:90px;
+    box-shadow: 0 1px 0 1px rgb(116, 116, 116);
+}
+.lagoshotel{
+    margin-bottom:30px;
+    border-radius: 5px;
+    height:230px;
+    background-image: url(assets/images/Lagos.jpg);
+}
+.abujahotel{
+    margin-bottom:30px;
+     background-image: url(assets/images/Abuja.jpg);
+     height:230px;
+     border-radius:5px;
+}
+.calabarhotel{
+    margin-bottom:20px;
+    background-image:url(assets/images/Cross\ river.jpg);
+    height: 230px;
+    border-radius:5px;
+}
+.portharcourthotel{
+    height:230px;
+    border-radius: 5px;
+    background-image: url(assets/images/port-harcourt_city1\ \(1\).jpg);
+}
+.owerrihotel{
+    height:230px;
+    border-radius:5px;
+    background-image: url(assets/images/owerri_city1\ \(1\).jpg);
+}
+.uyohotel{
+    height:230px;
+    border-radius:5px;
+    background-image:url(assets/images/uyo_city1.jpg);
+}
+.Abia{
+    height:20px;
+}
+.AbujA{
+   height:20px;
+}
+.bbc{
+    margin-top: 20px;
+    z-index: 10;
+    margin-bottom: -400px;
+    background-image: url(assets/images/bbc.jpg);
+    height:300px;
+}
+.forbes{
+    margin-bottom: -200px;
+    margin-left: 300px;
+    height:300px;
+    background-image: url(assets/images/forbes.jpg);
+}
+.newsweek{
+    margin-left: 600px;
+    height:50px;
+    background-image: url(assets/images/newsweek.png);
+}
+.africalogo{
+    top:-100px;
+    position: relative;
+ margin-left: 900px;
+ height: 100px;
+ background-image: url(assets/images/webafrica.jpg);
+}
